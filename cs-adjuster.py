@@ -18,7 +18,6 @@
 import os
 from gi.repository import Gio, GLib
 
-
 interface_settings = Gio.Settings.new("org.gnome.desktop.interface")
 
 color_scheme = interface_settings['color-scheme']
